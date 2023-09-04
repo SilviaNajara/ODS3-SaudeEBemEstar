@@ -122,3 +122,29 @@ footer{
     background-color: black;
     color: white;
 }
+
+@media all and (max-width: 768px){
+    #menu{
+        visibility: hidden; /*Esconde a visibilidade do Menu*/
+    }
+    .coluna, .dois, .tres, .quatro {
+        /*Div vai se comportar como bloco*/
+        display:block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+
+    #logoDiv{
+        width: 100%;
+        border: 1px solid red;
+        position: relative;
+        text-align: center;
+        
+    }
+    #logo{
+        margin-left: 250px;
+        transform: translateX(-50%); /*Atributo para fazer a imagem se movimentar no eixo X*/
+    }
+}  
