@@ -150,11 +150,11 @@ footer{
     #titulo{
         
         font-size: 20px;
-        margin-top: 20px;
+        margin-top: 10px;
 
     }
     #imgInicio{
-        width: 100%;
+        width: 90%;
         margin-left: 10px;
     }
 }  
