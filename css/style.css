@@ -57,8 +57,9 @@ a:hover{
 }
 #imgInicio{
     width: 90%;
-    margin: 0px 100px ;
-}
+    margin: 20px ;
+    margin-left: 50px;
+}   
 #ibge{
     width: 100%;
     color: white;
@@ -138,7 +139,6 @@ footer{
 
     #logoDiv{
         width: 100%;
-        border: 1px solid red;
         position: relative;
         text-align: center;
         
@@ -146,5 +146,15 @@ footer{
     #logo{
         margin-left: 250px;
         transform: translateX(-50%); /*Atributo para fazer a imagem se movimentar no eixo X*/
+    }
+    #titulo{
+        
+        font-size: 20px;
+        margin-top: 20px;
+
+    }
+    #imgInicio{
+        width: 100%;
+        margin-left: 10px;
     }
 }  
